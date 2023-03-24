@@ -1,0 +1,10 @@
+gelen isteği alıp weatherstackten alacağız.
+250 tane api isteği gönderebiliyoruz.
+Catchi 30 dakikada bir temizleyerek bunu minimize edebiliriz.
+lombok generated bir kütüphane oldugu icin buildtimeyi geciktiriyor etkiliyor
+jpa repo ile crud repo arasındaki fark:
+crud repo kullanırsan Iterable dönüyor. stream kullanmak zorlaşıyor
+ama jpa direk liste dönüyor.Streamle liste operasyonları kolaylaşıyor
+bu yüzden jpa tercih edilmeli
+
+recordu modelde kullanamıyoruz sebebi modelde constructor olmasından dolayı
